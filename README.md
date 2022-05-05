@@ -1,3 +1,7 @@
+## SceneForge Fork of Runtime Node Editor
+It was modified to remove use of Resources.Load in favor of direct editor references in the NodeEditor base class. 
+Additionally some Virtual methods were moved from the derived example class into the base Node Editor for easier customization.
+
 ![node editor](./img/node_gif1.gif)
 
 ## Runtime Node Editor
